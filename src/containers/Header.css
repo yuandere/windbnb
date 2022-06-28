@@ -1,0 +1,25 @@
+.block {
+  display: block
+}
+
+.search-container {
+  height: 3.5rem;
+  border: rgba(220, 220, 220, 0.486);
+  align-self: center;
+}
+
+.bgray {
+  border: rgba(220, 220, 220, 0.486)
+}
+
+.searchBtn {
+  background: none;
+}
+
+.searchBtn span {
+  color:#EB5757;
+}
+
+.bnone {
+  border: none
+}
