@@ -11,7 +11,6 @@ const Stays = ({ staysList }) => {
 				<p className="f6">{staysList.length} stays</p>
 			</div>
 			<div>
-				test
 				{staysList.map((item, i) => {
 					return (
 						<Listing
@@ -23,7 +22,7 @@ const Stays = ({ staysList }) => {
 							rating={staysList[i].rating}
 							maxGuests={staysList[i].maxGuests}
 							type={staysList[i].type}
-							bed={staysList[i].bed}
+							beds={staysList[i].beds}
 							photo={staysList[i].photo}
 						/>
 					);

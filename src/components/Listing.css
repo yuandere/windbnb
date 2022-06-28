@@ -1,0 +1,15 @@
+.stay-data-right span {
+  font-size: 18px;
+}
+
+.fgray {
+  color: rgb(150, 150, 150)
+}
+
+.f55 {
+  font-size: 0.95rem;
+}
+
+.stay-desc {
+  transform: translateY(-5px);
+}

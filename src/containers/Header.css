@@ -16,10 +16,14 @@
   background: none;
 }
 
-.searchBtn span {
+.primcolor {
   color:#EB5757;
 }
 
 .bnone {
   border: none
+}
+
+.pointer {
+  cursor: pointer;
 }

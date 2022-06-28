@@ -1,17 +1,18 @@
 import { useState } from 'react';
 import './Header.css';
 
-const Header = ({ drawerOpen }) => {
+const drawerOpen = () => {
+	console.log('open')
+};
+
+const Header = () => {
 	return (
 		<div className="block flex flex-column">
-			<div className="logo">
-				<img src="logo.svg"></img>
-			</div>
-			<div className="search-container mt4 flex justify-around items-center w-80 br4 shadow-4">
-				<div className="location pa2 f6 tc h-100 flex items-center">
+			<div className="search-container mt3 flex justify-around items-center w-80 br4 shadow-4">
+				<div className="location pa2 f6 tc h-100 flex items-center pointer">
 					Helsinki, Finland
 				</div>
-				<form className="pv3 pl2 f6 flex items-center bl bgray w-33">
+				<form className="pv3 pl2 f6 flex items-center bl bgray w-33 pointer" onFocus={drawerOpen}>
 						<input
 							id="name"
 							className="input-reset w-100 tc bnone"
@@ -22,7 +23,7 @@ const Header = ({ drawerOpen }) => {
 				</form>
 
 				<button className="searchBtn bl bgray pa2 h-100 flex items-center">
-					<span className="material-icons">search</span>
+					<span className="material-icons primcolor pointer" onClick={drawerOpen}>search</span>
 				</button>
 			</div>
 		</div>

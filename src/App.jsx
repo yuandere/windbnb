@@ -16,6 +16,9 @@ function App() {
 
 	return (
 		<div className="App">
+			<div className="pa3">
+				<img src="logo.svg"></img>
+			</div>
 			<Header></Header>
 			<Stays staysList={filterResults}></Stays>
 		</div>
