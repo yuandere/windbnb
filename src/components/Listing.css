@@ -13,3 +13,8 @@
 .stay-desc {
   transform: translateY(-5px);
 }
+
+.stay-container img {
+  height: 225px;
+  object-fit: cover;
+}

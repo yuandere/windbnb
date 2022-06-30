@@ -1,0 +1,19 @@
+.scroll-lock {
+  overflow-y: hidden;
+}
+
+.block {
+  display: block
+}
+
+.primcolor {
+  color:#EB5757;
+}
+
+.bnone {
+  border: none
+}
+
+.pointer {
+  cursor: pointer;
+}

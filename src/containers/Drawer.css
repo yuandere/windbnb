@@ -1,0 +1,40 @@
+.drawer-container {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.drawer-container--hidden {
+  display: none;
+}
+
+.drawer-content {
+  height: 80%;
+  width: 100%;
+  background: white;
+}
+
+.danger {
+  color: red
+}
+
+.outFocus {
+  height: 20%;
+}
+
+.clearBtn {
+  background: none;
+  border: none
+}
+
+#drawer-locations span {
+  color: rgb(61, 61, 61);
+}
+
+input#guests:focus {
+  outline: none;
+  background: rgb(233, 233, 233);
+}

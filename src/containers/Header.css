@@ -1,7 +1,3 @@
-.block {
-  display: block
-}
-
 .search-container {
   height: 3.5rem;
   border: rgba(220, 220, 220, 0.486);
@@ -16,14 +12,13 @@
   background: none;
 }
 
-.primcolor {
-  color:#EB5757;
+.searchBtn__large {
+  width: 8rem;
+  background: #EB5757;
+  border: none;
 }
 
-.bnone {
-  border: none
-}
-
-.pointer {
-  cursor: pointer;
+.searchBtn__large span,
+.searchBtn__large p {
+  color: white;
 }
