@@ -132,7 +132,7 @@ const Drawer = ({
 									{searchCity === '' ? 'Finland' : searchCity + ', Finland'}
 								</p>
 							</div>
-							<form className="pl3 pv2 mr7 bl bgray">
+							<form className="pl3 pv2 bl bgray" style={{marginRight: "25vw"}}>
 								<label
 									htmlFor="guests"
 									className="input-helpertext pv1 f7 fw5 flex"
