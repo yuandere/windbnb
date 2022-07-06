@@ -37,6 +37,7 @@ function App() {
 		if (1280 <= windowSize.width) {
 			setBreakpoint('lg');
 		}
+		setGuests(0);
 		return () => window.removeEventListener('resize', handleResize);
 	}, [windowSize.width]);
 
