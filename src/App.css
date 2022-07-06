@@ -17,3 +17,23 @@
 .pointer {
   cursor: pointer;
 }
+
+.App {
+  width: 100%;
+}
+
+.App-width-md {
+  width: 85%
+}
+
+.App-width-lg {
+  max-width: 1080px;
+}
+
+.gray {
+  color: gray
+}
+
+.lgray {
+  color: rgb(155, 155, 155);
+}

@@ -1,0 +1,12 @@
+.stays-width-md {
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  gap: 0.5rem 2rem;
+}
+
+.stays-width-lg {
+  margin-top: 1rem;
+  display: grid;
+  grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+  gap: 0 2rem;
+}

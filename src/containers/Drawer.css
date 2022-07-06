@@ -17,12 +17,22 @@
   background: white;
 }
 
+.drawer-width-md {
+  height: 50%;
+}
+
 .danger {
   color: red
 }
 
 .outFocus {
   height: 20%;
+  background: rgba(37, 37, 37, 0.349);
+}
+
+.outFocus-width-md {
+  height: 50%;
+  background: rgba(37, 37, 37, 0.349);
 }
 
 .clearBtn {
@@ -37,4 +47,22 @@
 input#guests:focus {
   outline: none;
   background: rgb(233, 233, 233);
+}
+
+#searchBtn__largeshort {
+  height: 3.5rem;
+}
+
+#drawer-content-bottom-dt {
+  transform: translateX(-31px);
+}
+
+#drawer-locations-dt {
+  margin-right: 6rem;
+}
+
+@media (min-width: 1280px) {
+  #drawer-locations-dt {
+    margin-right: 11.5rem;
+  }
 }
