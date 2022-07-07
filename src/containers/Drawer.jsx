@@ -126,13 +126,13 @@ const Drawer = ({
 				<div className="drawer-content ph3 pv4 flex flex-column shadow-5 drawer-width-md items-center">
 					<div className="flex flex-column items-center w-80">
 						<div className="input-container justify-between flex w-100 br4 shadow-4">
-							<div className="ph4 pt2 pb1">
+							<div className="ph4 pt2 pb1 w-20">
 								<p className="ma0 pv1 input-helpertext f7 fw5">LOCATION</p>
 								<p className="mv1 fw3">
 									{searchCity === '' ? 'Finland' : searchCity + ', Finland'}
 								</p>
 							</div>
-							<form className="pl3 pv2 bl bgray" style={{marginRight: "25vw"}}>
+							<form className="ph3 pv2 bl bgray w-30">
 								<label
 									htmlFor="guests"
 									className="input-helpertext pv1 f7 fw5 flex"
@@ -165,10 +165,10 @@ const Drawer = ({
 								</button>
 							</div>
 						</div>
-						<div id='drawer-content-bottom-dt' className="flex w-90">
+						<div id='drawer-content-bottom-dt' className="flex justify-between w-100">
 							<div
 								id="drawer-locations-dt"
-								className="flex flex-column pv3 ph2 location-margin"
+								className="flex flex-column pl1 pv3 w-20"
 							>
 								<div className="flex items-center">
 									<span className="material-icons">location_on</span>
@@ -207,11 +207,12 @@ const Drawer = ({
 									</p>
 								</div>
 							</div>
-							<div className='mt4'>
+							<div className='mt4 w-30'>
 										<Counter searchGuests={searchGuests} setGuests={setGuests} type='adult'></Counter>
 										<div className='mv2'></div>
 										<Counter searchGuests={searchGuests} setGuests={setGuests} type='child'></Counter>
 							</div>
+							<div style={{width: "6rem"}}></div>
 						</div>
 					</div>
 				</div>

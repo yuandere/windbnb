@@ -52,17 +52,3 @@ input#guests:focus {
 #searchBtn__largeshort {
   height: 3.5rem;
 }
-
-#drawer-content-bottom-dt {
-  transform: translateX(-31px);
-}
-
-#drawer-locations-dt {
-  margin-right: 6rem;
-}
-
-@media (min-width: 1280px) {
-  #drawer-locations-dt {
-    margin-right: 11.5rem;
-  }
-}
