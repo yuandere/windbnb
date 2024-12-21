@@ -70,7 +70,3 @@ $ npm start
 - [Custom breakpoint React Hook](https://dev.to/chilupa/usebreakpoint-react-hook-13oa)
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
 
-## Contact
-
-- GitHub [@yuandere](https://github.com/yuandere)
-- Discord [@al doub#7487](https://discord.com)
